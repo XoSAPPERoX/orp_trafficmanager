@@ -16,6 +16,13 @@ A modern, draggable Traffic Control system for FiveM with synced zones, characte
 * 🚦 Stop / Slow / Resume traffic controls
 * 🔄 Smart UI state (buttons disable when already active)
 * 🔔 Uses **ox_lib notifications**
+---
+<img width="434" height="448" alt="Pre_Scene" src="https://github.com/user-attachments/assets/ce972bd2-071b-4608-a535-2add53683cfc" />
+
+<img width="444" height="460" alt="Slowed_Scene" src="https://github.com/user-attachments/assets/5e09a18f-21d3-4044-adbd-3cd20016f422" />
+
+<img width="441" height="457" alt="Stopped_Scene" src="https://github.com/user-attachments/assets/4036d219-7cbf-463a-8fbf-12537a11a430" />
+
 
 ---
 
@@ -81,6 +88,8 @@ Restricted to:
 * safr
 
 Must be **on duty**.
+
+<img width="296" height="91" alt="Duty Warning" src="https://github.com/user-attachments/assets/5967bd39-d9d8-415e-b54a-0c0c0a311694" />
 
 ---
 
