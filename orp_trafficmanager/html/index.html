@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Control</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div id="traffic-menu" class="window">
+            <div id="drag-header" class="window-header">
+                <div class="header-left">
+                    <div id="status-dot" class="status-dot"></div>
+                    <div>
+                        <div class="title">Traffic Control</div>
+                        <div class="subtitle">Field Traffic Management</div>
+                    </div>
+                </div>
+
+                <button id="close-btn" class="close-btn" title="Close">×</button>
+            </div>
+
+            <div class="window-body">
+                <div class="section-label">Shared Zone Controls</div>
+
+                <div class="status-card">
+                    <div class="status-row-top">
+                        <div>
+                            <div class="status-title">Active State</div>
+                            <div id="zone-status" class="status-value">None</div>
+                        </div>
+                        <div id="status-badge" class="status-badge none">None</div>
+                    </div>
+
+                    <div class="meta-grid">
+                        <div class="meta-item">
+                            <div class="meta-label">Placed By</div>
+                            <div id="placed-by" class="meta-value">—</div>
+                        </div>
+                        <div class="meta-item">
+                            <div class="meta-label">Expires In</div>
+                            <div id="expires-in" class="meta-value">—</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="radius-card">
+                    <div class="radius-row">
+                        <span class="radius-label">Radius</span>
+                        <span id="radius-value" class="radius-value">40m</span>
+                    </div>
+                    <input id="radius-slider" class="radius-slider" type="range" min="20" max="100" step="5" value="40" />
+                </div>
+
+                <button class="action-btn stop" id="stop-traffic">
+                    <span class="btn-title">Stop Traffic</span>
+                </button>
+
+                <button class="action-btn slow" id="slow-traffic">
+                    <span class="btn-title">Slow Traffic</span>
+                </button>
+
+                <button class="action-btn resume" id="resume-traffic">
+                    <span class="btn-title">Resume Traffic</span>
+                </button>
+
+                <div class="footer-hint">Press ESC or click × to close</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+ORP TRAFFIC MANAGER LICENSE
+
+Copyright (c) 2026 Brandon Roberts (XoSAPPERoX)
+
+This software is provided for personal and server use only.
+
+You may:
+- Use this script on your server
+- Modify this script for internal server use only
+
+You may NOT:
+- Sell, resell, or monetize this script in any form
+- Distribute this script publicly or privately without permission
+- Include this script in any paid or free package, bundle, or server pack
+- Claim this script as your own
+
+Unauthorized redistribution or sale of this script is strictly prohibited.
+
+If you wish to share this script, you must link to the official repository.
+
+All rights reserved.
+
+This software is provided "as is", without warranty of any kind.
+
+Find us on https://operationrp.com
+
+Follow me at https://twitch.tv/xosapperox
